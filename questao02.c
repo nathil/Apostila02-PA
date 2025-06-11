@@ -8,7 +8,7 @@ int main(){
     printf("Informe a quantidade de termos:"); 
     scanf("%d", &termos); 
 
-    for(int i=0; i<termos; i++){
+    for(int i=1; i<=termos; i++){
         if(i == 1){
             printf("%d ", ultimo_termo); 
         }
